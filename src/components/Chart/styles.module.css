@@ -1,0 +1,20 @@
+.chart {
+	width: calc(100% + 40px);
+	margin-left: -20px;
+	height: 185px;
+	position: relative;
+}
+
+.value {
+	font-size: 23px;
+	color: #78a659;
+	position: absolute;
+	width: 100px;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: 30%;
+	z-index: 1;
+	font-weight: normal;
+	display: inline-block;
+}

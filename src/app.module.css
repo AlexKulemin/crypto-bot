@@ -1,0 +1,24 @@
+.app {
+	max-width: 100vw;
+	max-height: 100vh;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: url('/images/bg.png') top center no-repeat #112135;
+}
+
+.container {
+	max-width: 450px;
+	margin: 0 auto;
+	padding: 0 10px;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	overflow: hidden;
+}
+
+@media (min-width: 375px) {
+	.container {
+		padding: 0 16px;
+	}
+}

@@ -1,0 +1,46 @@
+.navigation {
+	display: flex;
+	align-items: center;
+	background-color: #232c3e;
+	margin: auto -16px 0;
+	height: 50px;
+}
+
+.button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: none;
+	border: none;
+	flex: 1 0 auto;
+	padding: 0;
+}
+
+.button-name {
+	font-size: 10px;
+	color: #546076;
+}
+
+.button-name--active {
+	color: #fff;
+}
+
+.button-icon {
+	position: relative;
+}
+
+.badge {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background: #e4972d;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	top: -10px;
+	right: -10px;
+}

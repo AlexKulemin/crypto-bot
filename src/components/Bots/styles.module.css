@@ -1,0 +1,6 @@
+.bots {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1px;
+	margin-bottom: 16px;
+}

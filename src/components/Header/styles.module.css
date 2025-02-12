@@ -1,0 +1,28 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 -10px 22px;
+	padding-top: 22px;
+}
+
+.button {
+	background: none;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+.button-icon {
+	width: 18px;
+	height: 18px;
+}
+
+.title {
+	color: #546076;
+	font-size: 17px;
+	font-weight: bold;
+	margin: 0;
+}

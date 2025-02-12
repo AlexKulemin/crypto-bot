@@ -1,0 +1,36 @@
+.range {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.title {
+	font-size: 12px;
+	font-weight: bold;
+	color: #546076;
+}
+
+.controls {
+	display: flex;
+	align-items: center;
+}
+
+.button {
+	width: 60px;
+	height: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: none;
+	border: 1px solid #546076;
+	border-radius: 30px;
+	white-space: nowrap;
+	color: #546076;
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+.button-active {
+	border: 1px solid #fff;
+	color: #fff;
+}

@@ -1,0 +1,77 @@
+.bot {
+	background: #252d40;
+	height: 105px;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+}
+
+.bot-active {
+	box-shadow: inset 0 0 30px 0 #1d4565;
+}
+
+.icon {
+	width: 45px;
+	height: 45px;
+	margin-bottom: 2px;
+}
+
+.icon-yellow {
+	color: #feda32;
+}
+
+.icon-red {
+	color: #f11d0d;
+}
+
+.icon-green {
+	color: #78a659;
+}
+
+.icon-blue {
+	color: #4794c4;
+}
+
+.icon-white {
+	color: #fff;
+}
+
+.icon-orange {
+	color: #f96400;
+}
+
+.name {
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.value {
+	font-size: 10px;
+}
+
+.value-positive {
+	color: #78a659;
+}
+
+.value-negative {
+	color: #d2447b;
+}
+
+.arrows {
+	position: absolute;
+	top: -30px;
+	right: -24%;
+	opacity: 0;
+	transform: scale(0.7);
+	transition: all 0.3s;
+}
+
+.arrows-animation {
+	opacity: 1;
+	transform: scale(1);
+}
