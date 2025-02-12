@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 export default function Navigation() {
 	return (
-		<section className={styles.navigation}>
+		<nav className={styles.navigation}>
 			<button className={styles.button}>
 				<div className={styles['button-icon']}>
 					<img src="/icons/dashboard.svg" alt="Dashboard icon" />
@@ -40,6 +40,6 @@ export default function Navigation() {
 				</div>
 				<div className={styles['button-name']}>Profile</div>
 			</button>
-		</section>
+		</nav>
 	);
 }
