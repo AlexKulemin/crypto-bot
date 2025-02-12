@@ -1,10 +1,10 @@
-import styles from './App.module.css';
 import Bots from './components/Bots/Bots';
 import Header from './components/Header/Header';
 import MainInfo from './components/MainInfo/MainInfo';
 import Navigation from './components/Navigation/Navigation';
 import data from './data/data.min.json';
 import { DataDto } from './models/data-dto';
+import styles from './styles.module.css';
 
 function App() {
 	const { trading_capital, trading_capital_currency, balance, on_hold, bots } =
